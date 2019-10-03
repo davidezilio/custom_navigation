@@ -20,5 +20,5 @@ The **BaseLocalPlanner** interface require the following functions:
 - setPlan
 
 # Running
-A demo can be run using the neo_simulation package 
+A demo can be run using the neo_simulation package
 `roslaunch neo_simulation mpo_500_autonomous_navigation_custom.launch`.
