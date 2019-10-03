@@ -1,5 +1,5 @@
 # Custom planners using ROS Navigation Stack
-This repository contains a custom Global and Local path planner.
+This repository contains a custom Global and Local planners.
 The algorithms implemented are
 - Astar for global planner
 - DWA for local planner
@@ -9,11 +9,11 @@ Both planners have been developed following the specificied interfaces
 - [BaseGlobalPlanner interface](http://docs.ros.org/melodic/api/nav_core/html/classnav__core_1_1BaseGlobalPlanner.html)
 - [BaseLocalPlanner interface](http://docs.ros.org/melodic/api/nav_core/html/classnav__core_1_1BaseLocalPlanner.html)
 
-The **BaseGlobalPlanner** interface require the following functions:
+The **BaseGlobalPlanner** interface requires the following functions:
 - initialize
 - makePlan
 
-The **BaseLocalPlanner** interface require the following functions:
+The **BaseLocalPlanner** interface requires the following functions:
 - initialize
 - computeVelocityCommands
 - isGoalReached
@@ -21,4 +21,4 @@ The **BaseLocalPlanner** interface require the following functions:
 
 # Running
 A demo can be run using the neo_simulation package\
-`roslaunch neo_simulation mpo_500_autonomous_navigation_custom.launch`.
+`roslaunch neo_simulation mpo_500_autonomous_navigation_custom.launch`
